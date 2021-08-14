@@ -7,14 +7,6 @@
     <string name="title_lainnya">Lainnya</string>
     <string name="cari_kata">Cari Kata!</string>
 
-    <!--<string-array name="kartu_harian_daftar">
-        <item>Dhahar</item>
-        <item>Ngunjuk</item>
-        <item>Sare</item>
-        <item>Siram</item>
-        <item>Mundhut</item>
-    </string-array>-->
-
     <string name="ngoko_lugu_title">Ngoko Lugu</string>
     <string name="ngoko_alus_title">Ngoko Alus</string>
     <string name="krama_alus_title">Krama Alus</string>
