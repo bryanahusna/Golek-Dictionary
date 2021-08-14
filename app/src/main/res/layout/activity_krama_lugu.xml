@@ -6,7 +6,7 @@
     android:background="#ffffff"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.bryanhusna.golek.KramaLuguActivity">
+    tools:context="com.bryanahusna.golek.belajar.KramaLuguActivity">
 
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/krama_lugu_viewPager"

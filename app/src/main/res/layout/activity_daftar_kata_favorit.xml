@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DaftarKataFavoritActivity">
+    tools:context=".cari.DaftarKataFavoritActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/daftar_kata_favorit_appbar"

@@ -6,39 +6,47 @@
     <string name="title_kuis">Kuis</string>
     <string name="title_lainnya">Lainnya</string>
     <string name="cari_kata">Cari Kata!</string>
-    <string name="ngoko_lugu_title">Ngoko Lugu</string>
 
-    <string-array name="kartu_harian_daftar">
+    <!--<string-array name="kartu_harian_daftar">
         <item>Dhahar</item>
         <item>Ngunjuk</item>
         <item>Sare</item>
         <item>Siram</item>
         <item>Mundhut</item>
-    </string-array>
+    </string-array>-->
 
-    <string name="deskripsi_ngoko_lugu">\t\tDalam Basa Jawa, terdapat yang namanya Unggah Ungguh Basa (tingkatan tutur). Setiap Unggah Ungguh memiliki penggunaannya masing-masing, bertujuan untuk memberikan penghormatan kepada lawan bicara. \n\n \t\tNgoko Lugu adalah tingkat tutur Basa Jawa yang menggunakan kata-kata Ngoko (tembung Ngoko) semuanya</string>
-    <string name="ngoko_lugu_penggunaan">-\tUntuk sesama yang sudah biasa\n-\tUntuk anak-anak dengan anak-anak\n-\tUntuk orang tua kepada anak-anak\n-\tPercakapan sendiri</string>
-    <string name="ngoko_lugu_contoh">-\tKowe mau wis mangan durung?\n\t(sesama yang sudah biasa)\n-\tOmahmu ana ngendi?\n\t(sesama yang sudah biasa)\n-\tBapak teka kabotan nggawa buku. \n\t(percakapan sendiri)</string>
-
-    <string name="deskripsi_ngoko_alus">Ngoko Alus adalah unggah-ungguh Basa Jawa yang menggunakan kata-kata Ngoko(tembung Ngoko) dicampur kata-kata Krama Inggil (tembung Krama Inggil)</string>
-
+    <string name="ngoko_lugu_title">Ngoko Lugu</string>
     <string name="ngoko_alus_title">Ngoko Alus</string>
     <string name="krama_alus_title">Krama Alus</string>
     <string name="krama_lugu_title">Krama Lugu</string>
+
+    <!-- Materi Ngoko Lugu -->
+    <string name="deskripsi_ngoko_lugu">\t\tDalam Basa Jawa, terdapat yang namanya Unggah Ungguh Basa (tingkatan tutur). Setiap Unggah Ungguh memiliki penggunaannya masing-masing, bertujuan untuk memberikan penghormatan kepada lawan bicara. \n\n \t\tNgoko Lugu adalah tingkat tutur Basa Jawa yang menggunakan kata-kata Ngoko (tembung Ngoko) semuanya</string>
+    <string name="ngoko_lugu_struktur">+ Seluruh kalimat menggunakan Tembung Ngoko</string>
+    <string name="ngoko_lugu_penggunaan">-\tUntuk sesama yang sudah biasa\n-\tUntuk anak-anak dengan anak-anak\n-\tUntuk orang tua kepada anak-anak\n-\tPercakapan sendiri</string>
+    <string name="ngoko_lugu_contoh">-\tKowe mau wis mangan durung?\n\t(sesama yang sudah biasa)\n-\tOmahmu ana ngendi?\n\t(sesama yang sudah biasa)\n-\tBapak teka kabotan nggawa buku. \n\t(percakapan sendiri)</string>
+
+
+    <!-- Materi Ngoko Alus -->
+    <string name="deskripsi_ngoko_alus">Ngoko Alus adalah unggah-ungguh Basa Jawa yang menggunakan kata-kata Ngoko (tembung Ngoko) dicampur kata-kata Krama Inggil (tembung Krama Inggil)</string>
+    <string name="ngoko_alus_struktur">+ Tembung Krama Inggil untuk kata kerja dan kata ganti orang\n+ Tembung Ngoko untuk selain kata kerja dan kata ganti orang</string>
     <string name="ngoko_alus_penggunaan">-\tUntuk orang yang sama tuanya (istri kepada suami)\n-\tUntuk orang yang lebih tua kepada yang lebih muda yang derajat/pangkatnya lebih tinggi</string>
     <string name="ngoko_alus_contoh">-\t<i>Panjenengan</i> wis <i>tindak</i> durung?\n-\tBapak <i>rawuh ngasta</i> oleh-oleh.\n-\tDalem <i>panjenengan</i> ana ngendi?</string>
 
+    <!-- Materi Krama Lugu -->
     <string name="deskripsi_krama_lugu">Krama Lugu adalah tingkat tutur Basa Jawa yang menggunakan kata-kata Krama (tembung Krama) seluruhnya</string>
+    <string name="krama_lugu_struktur">+ Seluruh kalimat menggunakan Tembung Krama</string>
     <string name="krama_lugu_penggunaan">-\tUntuk orang yang sedang berkenalan\n-\tUntuk orang yang lebih tua kepada yang lebih muda yang masih dihormati\n-\tUntuk orang yang lebih muda kepada yang lebih tua tetapi tidak terlalu dihormati</string>
     <string name="krama_lugu_contoh">-\tSampeyan sampun kesah dereng?\n-\tGriya sampeyan wonten pundi?</string>
 
+    <!-- Materi Krama Alus -->
     <string name="deskripsi_krama_alus">Krama Alus adalah tingkat tutur Basa Jawa yang menggunakan kata-kata Krama Inggil (tembung Krama Inggil) dicampur kata-kata Krama (tembung Krama)</string>
     <string name="krama_alus_penggunaan">-\tAnak-anak kepada orang tua\n-\tBawahan kepada atasan</string>
     <string name="krama_alus_contoh">-\tPanjenengan sampun tindak dereng?\n-\tBapak rawuh ngasta oleh-oleh.\n-\tDalem panjenengan wonten pundi?</string>
+    <string name="krama_alus_struktur">+ Tembung Krama Inggil, digunakan untuk lawan bicara\n+ Tembung Krama, digunakan untuk diri sendiri</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--<string name="hello_blank_fragment">Hello blank fragment</string>-->
     <string name="daftar_pustaka_tentang">Daftar Pustaka: \nPrayitna, Hendra. <i>Buku Pinter Basa Jawa Pepak</i>. Surabaya: Karya Utama</string>
-
 
 </resources>

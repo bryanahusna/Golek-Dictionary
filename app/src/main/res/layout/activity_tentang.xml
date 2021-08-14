@@ -5,14 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffffff"
-    tools:context=".TentangActivity">
+    tools:context=".lainnya.TentangActivity">
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="0dp"
+        android:layout_margin="30dp"
         android:layout_gravity="center_horizontal"
-        android:src="@drawable/ic_ikon_golek_invert"
+        android:src="@drawable/ic_ikon_golek"
         app:layout_constraintBottom_toTopOf="@+id/guideline20"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,7 +37,8 @@
         android:id="@+id/textView3"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Golek - dari bahasa Jawa yang berarti 'cari' - merupakan aplikasi pembelajaran Bahasa Jawa, khususnya materi Unggah-Ungguh Basa Jawa. Aplikasi ini ditujukan untuk siswa SD/SMP/SMA dan sederajat yang sedang belajar atau mempelajari Basa Jawa. Aplikasi ini diikutsertakan dalam Lomba Aplikasi Mobile Kihajar 2019 yang diselenggarakan oleh BPMPK Kemdikbud"
+        android:text="Golek - dari bahasa Jawa yang berarti 'cari' - adalah aplikasi pembelajaran Bahasa Jawa, khususnya materi Unggah-Ungguh Basa Jawa. Aplikasi ini ditujukan untuk siswa SD/SMP/SMA dan sederajat yang sedang belajar atau mempelajari Basa Jawa. Aplikasi ini diikutsertakan dalam Lomba Aplikasi Mobile Kihajar 2019 yang diselenggarakan oleh BPMPK Kemdikbud"
+        android:justificationMode="inter_word"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         app:layout_constraintEnd_toStartOf="@+id/guideline23"
         app:layout_constraintHorizontal_bias="1.0"
@@ -102,12 +104,13 @@
         app:layout_constraintTop_toBottomOf="@+id/cardView" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:gravity="left"
         android:text="@string/daftar_pustaka_tentang"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintEnd_toStartOf="@+id/guideline23"
         app:layout_constraintStart_toStartOf="@+id/guideline22"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 

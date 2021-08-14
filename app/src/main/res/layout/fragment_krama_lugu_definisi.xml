@@ -3,10 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".KramaLuguDefinisiFragment">
+    tools:context=".belajar.KramaLuguDefinisiFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <RelativeLayout
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -42,7 +44,7 @@
             android:layout_height="wrap_content"
             android:text="@string/deskripsi_krama_lugu"
             android:layout_margin="8dp"
-            android:textSize="18sp"
+            android:justificationMode="inter_word"
             android:gravity="left"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
 
@@ -77,9 +79,8 @@
             android:layout_below="@id/divider7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Seluruh kalimat menggunakan Tembung Krama"
+            android:text="@string/krama_lugu_struktur"
             android:layout_margin="8dp"
-            android:textSize="18sp"
             android:gravity="left"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
 

@@ -4,9 +4,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffffff"
-    tools:context=".NgokoLuguDefinisiFragment">
+    tools:context=".belajar.NgokoLuguDefinisiFragment">
 
     <RelativeLayout
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -43,9 +45,9 @@
             android:layout_below="@id/divider6"
             android:layout_margin="8dp"
             android:gravity="left"
+            android:justificationMode="inter_word"
             android:text="@string/deskripsi_ngoko_lugu"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textSize="18sp" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
         <View
             android:id="@+id/divider7"
@@ -80,9 +82,8 @@
             android:layout_below="@id/divider7"
             android:layout_margin="8dp"
             android:gravity="left"
-            android:text="Seluruh kalimat menggunakan Tembung Ngoko"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textSize="18sp" />
+            android:text="@string/ngoko_lugu_struktur"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
         <ImageView
             android:id="@+id/ngoko_lugu_ikon_definisi"

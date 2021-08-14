@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:dist="http://schemas.android.com/apk/distribution"
-    package="com.bryanhusna.golek">
+    package="com.bryanahusna.golek">
 
     <dist:module dist:instant="true" />
 
@@ -13,41 +13,41 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".PembukaTebakGambarKuisActivity"
+            android:name="com.bryanahusna.golek.kuis.PembukaTebakGambarKuisActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".PilihLevelTebakGambarActivity"
+            android:name="com.bryanahusna.golek.kuis.PilihLevelTebakGambarActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".TebakGambarKuisActivity"
+            android:name="com.bryanahusna.golek.kuis.TebakGambarKuisActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".PenutupIsiKataKuisActivity"
+            android:name="com.bryanahusna.golek.kuis.PenutupIsiKataKuisActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".PembukaIsiKataKuisActivity"
+            android:name="com.bryanahusna.golek.kuis.PembukaIsiKataKuisActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".TentangActivity"
+            android:name="com.bryanahusna.golek.lainnya.TentangActivity"
             android:label="Tentang"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".DaftarKataFavoritActivity"
+            android:name="com.bryanahusna.golek.cari.DaftarKataFavoritActivity"
             android:label="Favorit"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".IsiKataKuisActivity"
+            android:name="com.bryanahusna.golek.kuis.IsiKataKuisActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".PilihLevelIsiKataActivity"
+            android:name="com.bryanahusna.golek.kuis.PilihLevelIsiKataActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".DetailHasilPencarianActivity"
+            android:name="com.bryanahusna.golek.cari.DetailHasilPencarianActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".SplashScreen"
+            android:name="com.bryanahusna.golek.lainnya.SplashScreen"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -57,36 +57,36 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".BelajarActivity"
+            android:name="com.bryanahusna.golek.belajar.BelajarActivity"
             android:label="@string/title_belajar"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".CariActivity"
+            android:name="com.bryanahusna.golek.cari.CariActivity"
             android:label="@string/title_cari"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".KuisActivity"
+            android:name="com.bryanahusna.golek.kuis.KuisActivity"
             android:label="@string/title_kuis"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".LainnyaActivity"
+            android:name="com.bryanahusna.golek.lainnya.LainnyaActivity"
             android:label="@string/title_lainnya"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".NgokoLuguActivity"
+            android:name="com.bryanahusna.golek.belajar.NgokoLuguActivity"
             android:label="@string/ngoko_lugu_title"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".NgokoAlusActivity"
+            android:name="com.bryanahusna.golek.belajar.NgokoAlusActivity"
             android:label="@string/ngoko_alus_title"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".KramaLuguActivity"
+            android:name="com.bryanahusna.golek.belajar.KramaLuguActivity"
             android:label="@string/krama_lugu_title"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".KramaAlusActivity"
+            android:name="com.bryanahusna.golek.belajar.KramaAlusActivity"
             android:label="@string/krama_alus_title"
             android:screenOrientation="portrait" />
     </application>

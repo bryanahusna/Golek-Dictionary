@@ -3,9 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".NgokoAlusPenggunaanFragment">
+    tools:context=".belajar.NgokoAlusPenggunaanFragment">
 
     <RelativeLayout
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -65,8 +67,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:text="@string/ngoko_alus_penggunaan"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textSize="18sp" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
         <TextView
             android:id="@+id/ngoko_alus_contoh"
@@ -75,8 +76,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:text="@string/ngoko_alus_contoh"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textSize="18sp" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
         <ImageView
             android:id="@+id/sebelumnya_ngoko_alus"

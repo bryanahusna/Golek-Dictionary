@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffffff"
-    tools:context=".IsiKataKuisActivity">
+    tools:context=".kuis.IsiKataKuisActivity">
 
     <TextView
         android:id="@+id/pertanyaan"
@@ -228,16 +228,16 @@
         app:layout_constraintTop_toTopOf="@+id/hasil_pilihan_isiKata" />
 
     <TextView
-        android:visibility="invisible"
         android:id="@+id/hasil_pilihan_isiKata"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="605dp"
+        android:layout_height="100dp"
         android:gravity="center_horizontal"
         android:paddingTop="10dp"
-        android:textSize="30sp"
         android:text="BENAR"
-        android:textColor="#ffffff"
         android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:visibility="invisible"
         app:layout_constraintBottom_toTopOf="@+id/jawaban_asli_isiKata"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -262,7 +262,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.8" />
+        app:layout_constraintGuide_percent="0.75" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/lanjut_isiKata"

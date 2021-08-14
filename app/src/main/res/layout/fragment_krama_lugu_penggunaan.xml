@@ -3,8 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".KramaLuguPenggunaanFragment">
+    tools:context=".belajar.KramaLuguPenggunaanFragment">
     <RelativeLayout
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -64,8 +66,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:text="@string/krama_lugu_penggunaan"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textSize="18sp" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
         <TextView
             android:id="@+id/ngoko_alus_contoh"
@@ -74,8 +75,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:text="@string/krama_lugu_contoh"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textSize="18sp" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
     <ImageView
         android:id="@+id/sebelumnya_ngoko_lugu"
