@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.bryanhusna.golek">
+
+    <dist:module dist:instant="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_ikon_golek"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".PembukaTebakGambarKuisActivity"></activity>
+        <activity android:name=".PilihLevelTebakGambarActivity" />
+        <activity android:name=".TebakGambarKuisActivity" />
+        <activity android:name=".PenutupIsiKataKuisActivity" />
+        <activity android:name=".PembukaIsiKataKuisActivity" />
+        <activity
+            android:name=".TentangActivity"
+            android:label="Tentang" />
+        <activity
+            android:name=".DaftarKataFavoritActivity"
+            android:label="Favorit"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".IsiKataKuisActivity" />
+        <activity android:name=".PilihLevelIsiKataActivity" />
+        <activity
+            android:name=".DetailHasilPencarianActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BelajarActivity"
+            android:label="@string/title_belajar" />
+        <activity
+            android:name=".CariActivity"
+            android:label="@string/title_cari"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".KuisActivity"
+            android:label="@string/title_kuis" />
+        <activity
+            android:name=".LainnyaActivity"
+            android:label="@string/title_lainnya" />
+        <activity
+            android:name=".NgokoLuguActivity"
+            android:label="@string/ngoko_lugu_title" />
+        <activity
+            android:name=".NgokoAlusActivity"
+            android:label="@string/ngoko_alus_title" />
+        <activity
+            android:name=".KramaLuguActivity"
+            android:label="@string/krama_lugu_title" />
+        <activity
+            android:name=".KramaAlusActivity"
+            android:label="@string/krama_alus_title" />
+    </application>
+
+</manifest>

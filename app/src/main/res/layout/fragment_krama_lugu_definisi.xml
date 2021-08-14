@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KramaLuguDefinisiFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/apa_itu_ngoko_alus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Apa itu Krama Lugu?"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/secondaryColor"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"/>
+
+        <View
+            android:layout_below="@id/apa_itu_ngoko_alus"
+            android:backgroundTint="@color/secondaryColor"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/divider6"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/ngoko_alus_deskripsi"
+            android:layout_below="@id/divider6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/deskripsi_krama_lugu"
+            android:layout_margin="8dp"
+            android:textSize="18sp"
+            android:gravity="left"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+        <View
+            android:layout_below="@id/bagaimana_strukturnya_ngoko_alus"
+            android:backgroundTint="@color/secondaryColor"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/divider7"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/bagaimana_strukturnya_ngoko_alus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bagaimanakah Strukturnya?"
+            android:layout_below="@id/ngoko_alus_deskripsi"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/secondaryColor"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"/>
+
+        <TextView
+            android:id="@+id/deskripsi_struktur_ngoko_lugu"
+            android:layout_below="@id/divider7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seluruh kalimat menggunakan Tembung Krama"
+            android:layout_margin="8dp"
+            android:textSize="18sp"
+            android:gravity="left"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+        <ImageView
+            android:id="@+id/krama_lugu_ikon_definisi"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_ikonkrama" />
+
+        <TextView
+            android:text="Kata-Kata Krama Semua"
+            android:layout_marginTop="5dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_below="@id/krama_lugu_ikon_definisi"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/selanjutnya_ngoko_lugu"
+            android:alpha="0.5"
+            android:src="@drawable/ic_navigate_next_black_24dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+    </RelativeLayout>
+
+</FrameLayout>

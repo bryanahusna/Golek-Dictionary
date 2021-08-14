@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".NgokoLuguDefinisiFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:id="@+id/apa_itu_ngoko_alus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="3dp"
+            android:gravity="left"
+            android:text="Apa itu Ngoko Lugu?"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:textColor="@color/secondaryColor"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/divider6"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/apa_itu_ngoko_alus"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="?android:attr/listDivider"
+            android:backgroundTint="@color/secondaryColor" />
+
+        <TextView
+            android:id="@+id/ngoko_alus_deskripsi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/divider6"
+            android:layout_margin="8dp"
+            android:gravity="left"
+            android:text="@string/deskripsi_ngoko_lugu"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp" />
+
+        <View
+            android:id="@+id/divider7"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/bagaimana_strukturnya_ngoko_alus"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="?android:attr/listDivider"
+            android:backgroundTint="@color/secondaryColor" />
+
+        <TextView
+            android:id="@+id/bagaimana_strukturnya_ngoko_alus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ngoko_alus_deskripsi"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="3dp"
+            android:gravity="left"
+            android:text="Bagaimanakah Strukturnya?"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:textColor="@color/secondaryColor"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/deskripsi_struktur_ngoko_lugu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/divider7"
+            android:layout_margin="8dp"
+            android:gravity="left"
+            android:text="Seluruh kalimat menggunakan Tembung Ngoko"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/ngoko_lugu_ikon_definisi"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/deskripsi_struktur_ngoko_lugu"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/ic_ikonngoko" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ngoko_lugu_ikon_definisi"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:text="Kata-Kata Ngoko Semuanya"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
+
+        <ImageView
+            android:id="@+id/selanjutnya_ngoko_lugu"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:alpha="0.5"
+            android:src="@drawable/ic_navigate_next_black_24dp" />
+    </RelativeLayout>
+
+</FrameLayout>

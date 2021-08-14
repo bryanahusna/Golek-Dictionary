@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    tools:context=".BelajarActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bottom_bar">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp">
+
+            <LinearLayout
+                android:id="@+id/linearlayout_recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:orientation="vertical">
+
+                <androidx.viewpager.widget.ViewPager
+                    android:id="@+id/kartu_harian_ViewPager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <com.viewpagerindicator.CirclePageIndicator
+                android:id="@+id/indicator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linearlayout_recyclerview"
+                android:paddingTop="5dp"
+                android:paddingBottom="7dp"
+                app:centered="true"
+                app:fillColor="@color/secondaryColor"
+                app:pageColor="#ffffff"
+                app:radius="5dp"
+                app:snap="false"
+                app:strokeWidth="2dp" />
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/indicator"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="?android:attr/listDivider" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/ngoko_lugu_kartu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/divider"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:onClick="mulaiBelajar">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/secondaryDarkColor">
+
+                    <ImageView
+                        android:id="@+id/gambar_background_ngoko"
+                        android:src="@drawable/ic_belajarbackgroundngoko"
+                        android:alpha="0.5"
+                        android:adjustViewBounds="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/ngoko_lugu_judul"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="30dp"
+                        android:paddingEnd="0dp"
+                        android:paddingRight="0dp"
+                        android:paddingBottom="10dp"
+                        android:text="Ngoko Lugu"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textColor="#ffffff"
+                        android:textSize="26sp" />
+
+                    <TextView
+                        android:id="@+id/ngoko_lugu_keterangan"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@id/gambar_background_ngoko"
+                        android:background="#ffffff"
+                        android:paddingStart="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="15dp"
+                        android:paddingEnd="0dp"
+                        android:paddingRight="0dp"
+                        android:paddingBottom="15dp"
+                        android:text="Sinau Ngoko Lugu!"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/ngoko_alus_kartu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ngoko_lugu_kartu"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:onClick="mulaiBelajar">
+
+                <RelativeLayout
+                    android:background="@color/secondaryLightColor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/gambar_background_ngokoalus"
+                        android:alpha="0.5"
+                        android:src="@drawable/ic_belajarbackgroundngokoalus"
+                        android:adjustViewBounds="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/ngoko_alus_judul"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:paddingStart="10dp"
+                        android:paddingRight="0dp"
+                        android:paddingEnd="0dp"
+                        android:paddingTop="30dp"
+                        android:paddingBottom="10dp"
+                        android:text="Ngoko Alus"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textColor="#ffffff"
+                        android:textSize="26sp" />
+
+                    <TextView
+                        android:id="@+id/ngoko_alus_keterangan"
+                        android:layout_alignBottom="@id/gambar_background_ngokoalus"
+                        android:background="#ffffff"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ngoko_alus_judul"
+                        android:paddingLeft="10dp"
+                        android:paddingStart="10dp"
+                        android:paddingRight="0dp"
+                        android:paddingEnd="0dp"
+                        android:paddingTop="15dp"
+                        android:paddingBottom="15dp"
+                        android:text="Sinau Ngoko Alus!"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/krama_lugu_kartu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ngoko_alus_kartu"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:onClick="mulaiBelajar">
+
+                <RelativeLayout
+                    android:background="@color/colorAccent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/gambar_background_kramalugu"
+                        android:alpha="0.5"
+                        android:src="@drawable/ic_belajarbackgroundkramalugu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"/>
+                    <TextView
+                        android:id="@+id/krama_lugu_judul"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:paddingStart="10dp"
+                        android:paddingRight="0dp"
+                        android:paddingEnd="0dp"
+                        android:paddingTop="30dp"
+                        android:paddingBottom="10dp"
+                        android:text="Krama Lugu"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textColor="#ffffff"
+                        android:textSize="26sp" />
+
+                    <TextView
+                        android:id="@+id/krama_lugu_keterangan"
+                        android:background="#ffffff"
+                        android:layout_alignBottom="@id/gambar_background_kramalugu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/krama_lugu_judul"
+                        android:paddingLeft="10dp"
+                        android:paddingStart="10dp"
+                        android:paddingRight="0dp"
+                        android:paddingEnd="0dp"
+                        android:paddingTop="15dp"
+                        android:paddingBottom="15dp"
+                        android:text="Sinau Krama Lugu!"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/krama_alus_kartu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/krama_lugu_kartu"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                android:onClick="mulaiBelajar">
+
+                <RelativeLayout
+                    android:background="@color/secondaryColor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/gambar_background_kramaalus"
+                        android:src="@drawable/ic_belajarbackgroundkramaalus"
+                        android:alpha="0.5"
+                        android:layout_width="match_parent"
+                        android:adjustViewBounds="true"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/krama_alus_judul"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:paddingStart="10dp"
+                        android:paddingRight="0dp"
+                        android:paddingEnd="0dp"
+                        android:paddingTop="30dp"
+                        android:paddingBottom="10dp"
+                        android:text="Krama Alus"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textColor="#ffffff"
+                        android:textSize="26sp" />
+
+                    <TextView
+                        android:id="@+id/krama_alus_keterangan"
+                        android:layout_alignBottom="@id/gambar_background_kramaalus"
+                        android:background="#ffffff"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/krama_alus_judul"
+                        android:paddingLeft="10dp"
+                        android:paddingStart="10dp"
+                        android:paddingRight="0dp"
+                        android:paddingEnd="0dp"
+                        android:paddingTop="15dp"
+                        android:paddingBottom="15dp"
+                        android:text="Sinau Krama Alus!"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx
+        android:id="@+id/bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#FFFFFF"
+        app:itemIconSize="21dp"
+        app:itemIconTint="@color/tab_selector"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/bottom_nav_menu" />
+
+</RelativeLayout>

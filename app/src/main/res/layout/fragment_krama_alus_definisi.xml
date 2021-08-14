@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KramaAlusDefinisiFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/apa_itu_ngoko_alus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="3dp"
+            android:gravity="left"
+            android:text="Apa itu Krama Alus?"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:textColor="@color/secondaryColor"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/divider6"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/apa_itu_ngoko_alus"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="?android:attr/listDivider"
+            android:backgroundTint="@color/secondaryColor" />
+
+        <TextView
+            android:id="@+id/ngoko_alus_deskripsi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/divider6"
+            android:layout_margin="8dp"
+            android:gravity="left"
+            android:text="@string/deskripsi_krama_alus"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp" />
+
+        <View
+            android:id="@+id/divider7"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/bagaimana_strukturnya_ngoko_alus"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="?android:attr/listDivider"
+            android:backgroundTint="@color/secondaryColor" />
+
+        <TextView
+            android:id="@+id/bagaimana_strukturnya_ngoko_alus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ngoko_alus_deskripsi"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="3dp"
+            android:gravity="left"
+            android:text="Bagaimanakah Strukturnya?"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:textColor="@color/secondaryColor"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/deskripsi_struktur_ngoko_lugu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/divider7"
+            android:layout_margin="8dp"
+            android:gravity="left"
+            android:text="Tembung Krama Inggil, digunakan untuk lawan bicara\nTembung Krama, digunakan untuk diri sendiri"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/selanjutnya_krama_alus"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:alpha="0.5"
+            android:src="@drawable/ic_navigate_next_black_24dp" />
+
+        <ImageView
+            android:id="@+id/ngoko_alus_ikon_ngoko_definisi"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_below="@+id/deskripsi_struktur_ngoko_lugu"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="55dp"
+            android:src="@drawable/ic_ikonkrama" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ngoko_alus_ikon_ngoko_definisi"
+            android:layout_alignLeft="@id/ngoko_alus_ikon_ngoko_definisi"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center_horizontal"
+            android:text="Krama\nDiri sendiri"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
+
+        <ImageView
+            android:id="@+id/ikon_tambah"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/ic_add_black_24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ngoko_alus_ikon_krama_inggil_definisi"
+            android:layout_alignLeft="@id/ngoko_alus_ikon_krama_inggil_definisi"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center_horizontal"
+            android:text="Krama Inggil\nYang diajak berbicara"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
+
+        <ImageView
+            android:id="@+id/ngoko_alus_ikon_krama_inggil_definisi"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_below="@+id/deskripsi_struktur_ngoko_lugu"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="55dp"
+            android:layout_marginRight="50dp"
+            android:src="@drawable/ic_ikonkramainggil" />
+
+    </RelativeLayout>
+
+</FrameLayout>

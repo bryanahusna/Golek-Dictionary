@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_belajar"
+        android:icon="@drawable/ic_chrome_reader_mode_black_24dp"
+        android:title="@string/title_belajar"
+        android:checked="true" />
+
+    <item
+        android:id="@+id/navigation_cari"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="@string/title_cari"
+        android:checked="true" />
+
+    <item
+        android:id="@+id/navigation_kuis"
+        android:icon="@drawable/ic_border_color_black_24dp"
+        android:title="@string/title_kuis"
+        android:checked="true"/>
+
+    <item
+        android:id="@+id/navigation_lainnya"
+        android:icon="@drawable/ic_more_horiz_black_24dp"
+        android:title="@string/title_lainnya"
+        android:checked="true"/>
+
+</menu>

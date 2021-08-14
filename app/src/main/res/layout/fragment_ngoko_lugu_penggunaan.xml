@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".NgokoLuguPenggunaanFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <!-- TODO: Update blank fragment layout -->
+        <View
+            android:layout_below="@id/digunakan_untuk_siapa_ngoko_alus"
+            android:backgroundTint="@color/secondaryColor"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/divider7"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/digunakan_untuk_siapa_ngoko_alus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Digunakan untuk Siapa?"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/secondaryColor"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"/>
+        <View
+            android:layout_below="@id/contoh_ngoko_alus"
+            android:backgroundTint="@color/secondaryColor"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/divider8"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/contoh_ngoko_alus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contoh"
+            android:layout_below="@id/ngoko_alus_penggunaan"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/secondaryColor"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"/>
+        <TextView
+            android:id="@+id/ngoko_alus_penggunaan"
+            android:layout_below="@id/divider7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/ngoko_lugu_penggunaan"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/ngoko_alus_contoh"
+            android:layout_below="@id/divider8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/ngoko_lugu_contoh"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/sebelumnya_ngoko_lugu"
+            android:alpha="0.5"
+            android:src="@drawable/ic_navigate_before_black_24dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+    </RelativeLayout>
+
+</FrameLayout>

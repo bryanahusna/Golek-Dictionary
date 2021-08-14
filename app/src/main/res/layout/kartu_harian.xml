@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/kartu_harian_judul"
+                android:text="dhahar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/kartu_harian_subjudul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/kartu_harian_judul"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="10dp"
+                android:text="Krama Inggil"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/kartu_harian_indonesia_ikon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/kartu_harian_subjudul"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/ic_ikonindonesia" />
+            <TextView
+                android:id="@+id/kartu_harian_indonesia"
+                android:text="makan"
+                android:textSize="15sp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:paddingLeft="5dp"
+                android:paddingBottom="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/kartu_harian_indonesia_ikon"
+                android:layout_alignBottom="@id/kartu_harian_indonesia_ikon"/>
+
+            <ImageView
+                android:id="@+id/kartu_harian_ngoko_ikon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/kartu_harian_indonesia_ikon"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/ic_ikonngoko" />
+            <TextView
+                android:id="@+id/kartu_harian_ngoko"
+                android:text="mangan"
+                android:textSize="15sp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:paddingLeft="5dp"
+                android:paddingBottom="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/kartu_harian_ngoko_ikon"
+                android:layout_alignBottom="@id/kartu_harian_ngoko_ikon"/>
+            <ImageView
+                android:id="@+id/kartu_harian_krama_ikon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/kartu_harian_ngoko_ikon"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/ic_ikonkrama" />
+            <TextView
+                android:id="@+id/kartu_harian_krama"
+                android:text="neda"
+                android:textSize="15sp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:paddingLeft="5dp"
+                android:paddingBottom="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/kartu_harian_krama_ikon"
+                android:layout_alignBottom="@id/kartu_harian_krama_ikon"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
